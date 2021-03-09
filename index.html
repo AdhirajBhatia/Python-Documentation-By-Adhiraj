@@ -4,10 +4,84 @@
 <head>
     <meta charset="utf-8">
     <title>Python Documentation</title>
-    <link rel="shortcut icon" href="https://pluralsight.imgix.net/paths/python-7be70baaac.png " type="image/x-icon">
+    <link rel="shortcut icon" href="https://pluralsight.imgix.net/paths/python-7be70baaac.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <meta name="description" content="Python Documentation">
     <meta name="viewport" content="width=device-width, initial-scale=0">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="white">
+    <link rel="apple-touch-icon" href="https://pluralsight.imgix.net/paths/python-7be70baaac.png">
+    <style>
+        body {
+            font-family: Georgia;
+            font-size: 20px;
+            min-width: 290px;
+            background-color: #ffffff;
+            line-height: 1.5;
+        }
+
+        header {
+            color: black;
+            margin: 10px;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bolder;
+        }
+
+        #navbar {
+            position: fixed;
+            min-width: 290px;
+            top: 0px;
+            left: 0px;
+            width: 300px;
+            height: 100%;
+            border-right: solid;
+            border-color: black;
+        }
+
+        #navbar ul {
+            height: 88%;
+            padding: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        #navbar li {
+            border-top: 1px solid;
+            list-style: none;
+            position: relative;
+            width: 100%;
+        }
+
+        #navbar a {
+            display: block;
+            padding: 10px 30px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        div {
+            position: absolute;
+            margin-left: 310px;
+            padding: 20px;
+            margin-bottom: 110px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        mark {
+            background-color: rgb(0, 251, 255);
+        }
+    </style>
+    <script>
+        if ("serviceWorker" in navigator) {
+            // register service worker
+            navigator.serviceWorker.register("service-worker.js");
+        }
+    </script>
 </head>
 
 <body>
