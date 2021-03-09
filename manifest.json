@@ -1,0 +1,23 @@
+{
+  "name": "Loan Calculator",
+  "short_name": "Loan Calculator",
+  "start_url": "index.html",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/W1cxLpJb/loan.png",
+      "sizes": "192x192",
+      "type": "image/png",
+	    "purpose": "any maskable"
+    },
+    {
+      "src": "https://i.postimg.cc/W1cxLpJb/loan.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+	}
+  ],
+  "theme_color": "white",
+  "background_color": "white",
+  "display": "standalone"
+}
